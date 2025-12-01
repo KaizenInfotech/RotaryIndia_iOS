@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "539387464F434D03D4CC02723179BE87D99BC4B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "539387464F434D03D4CC02723179BE87D99BC4B7" : 0,
+    "8D9227A97BFAAFFAEEA6C41AEBD0D724B9CCF5D6" : 0,
+    "EA989883DAAA293CC6F9B2E9BA63F6D43356BEB7" : 0,
+    "C4261748F1821C422F8966A447743AAD746200D6" : 0,
+    "6291A9778DD8732DF6470C313ADAE71A51A706B4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "531D8E91-98E7-482F-A7BE-B3A0A1573561",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "539387464F434D03D4CC02723179BE87D99BC4B7" : "TouchBase_SecondPhase\/",
+    "8D9227A97BFAAFFAEEA6C41AEBD0D724B9CCF5D6" : "TouchBase_final",
+    "EA989883DAAA293CC6F9B2E9BA63F6D43356BEB7" : "TouchBase_FirstPhase_15Apr\/",
+    "C4261748F1821C422F8966A447743AAD746200D6" : "firstphase_touchBase\/",
+    "6291A9778DD8732DF6470C313ADAE71A51A706B4" : "TouchBase_2Phase\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TouchBase",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TouchBase\/TouchBase.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KaizenInfotech\/TouchBase_SecondPhase.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "539387464F434D03D4CC02723179BE87D99BC4B7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KaizenInfotech\/TouchBase_2Phase.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6291A9778DD8732DF6470C313ADAE71A51A706B4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KaizenInfotech\/TouchBase_final",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D9227A97BFAAFFAEEA6C41AEBD0D724B9CCF5D6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KaizenInfotech\/firstphase_touchBase",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4261748F1821C422F8966A447743AAD746200D6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KaizenInfotech\/TouchBase_FirstPhase_15Apr.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA989883DAAA293CC6F9B2E9BA63F6D43356BEB7"
+    }
+  ]
+}

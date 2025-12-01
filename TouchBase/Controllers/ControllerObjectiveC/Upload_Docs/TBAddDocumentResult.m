@@ -1,0 +1,13 @@
+//
+//  TBAddDocumentResult.m
+//  TouchBase
+//
+//  Created by Kaizan on 22/03/16.
+//  Copyright © 2016 Parag. All rights reserved.
+//
+
+#import "TBAddDocumentResult.h"
+
+@implementation TBAddDocumentResult
+
+@end

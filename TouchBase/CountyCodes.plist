@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   CountyCodes.plist
+   TouchBase
+
+   Created by Kaizan on 26/11/15.
+   Copyright (c) 2015 Parag. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        
+        <key>CountryName</key>
+        <array>
+            <string>Abkhazia</string>
+            <string>Afghanistan</string>
+            <string>Albania</string>
+            <string>Algeria</string>
+            <string>American Samoa</string>
+            <string>Andorra</string>
+            <string>Angola</string>
+            <string>Anguilla</string>
+            <string>Antigua and Barbuda</string>
+            <string> Argentina </string>
+            <string>Armenia</string>
+            <string> Aruba </string>
+            <string> Ascension </string>
+            <string> Australia </string>
+            <string>Australian External Territories</string>
+            <string> Austria </string>
+            <string> Azerbaijan </string>
+            <string> Bahamas </string>
+            <string> Bahrain </string>
+            <string> Bangladesh </string>
+            <string> Barbados </string>
+            <string> Barbuda </string>
+            <string> Belarus </string>
+            <string> Belgium </string>
+            <string> Belize </string>
+            <string> Benin </string>
+            <string> Bermuda </string>
+            <string> Bhutan </string>
+            <string> Bolivia </string>
+            <string>Bosnia and Herzegovina</string>
+            
+            <string>India</string>
+            <string>Indonesia</string>
+            <string>Iran</string>
+            <string>Iraq</string>
+            <string>Ireland</string>
+            <string>Israel</string>
+            <string>Italy</string>
+            <string>Ivory Coast</string>
+        </array>
+        
+        <key>CountryCode</key>
+        <array>
+            <string>+7 840</string>
+            <string>+93</string>
+            <string>+355</string>
+            <string>+213</string>
+            <string>+1 684</string>
+            <string>+376</string>
+            <string>+244</string>
+            <string>+1 264</string>
+            <string>+1 268</string>
+            <string>+54</string>
+            <string>+374</string>
+            <string>+297</string>
+            <string>+247</string>
+            <string>+61</string>
+            <string>+672</string>
+            <string>+43</string>
+            <string>+994</string>
+            <string>+1 242</string>
+            <string>+973</string>
+            <string>+880</string>
+            <string>+1 246</string>
+            <string>+1 268</string>
+            <string>+375</string>
+            <string>+32</string>
+            <string>+501</string>
+            <string>+229</string>
+            <string>+1 441</string>
+            <string>+975</string>
+            <string>+591</string>
+            <string>+387</string>
+            
+            <string>+91</string>
+            <string>+62</string>
+            <string>+98</string>
+            <string>+964</string>
+            <string>+353</string>
+            <string>+972</string>
+            <string>+39</string>
+            <string>+225</string>
+        </array>
+    
+    </dict>
+</plist>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
