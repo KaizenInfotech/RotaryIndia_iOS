@@ -1,6 +1,0 @@
-framework module Pods_TouchBaseTests {
-  umbrella header "Pods-TouchBaseTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
