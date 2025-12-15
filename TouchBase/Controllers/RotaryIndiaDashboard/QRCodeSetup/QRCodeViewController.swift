@@ -8,6 +8,7 @@
 
 import UIKit
 import Contacts
+import CoreImage
 
 class QRCodeViewController: UIViewController {
     
@@ -38,7 +39,18 @@ class QRCodeViewController: UIViewController {
         print("QRCODE4---------\(self.memEmail)")
         
         let contact = CNMutableContact()
-        contact.givenName = self.memName
+        let nameParts = parseName(fullName: self.memName)
+                
+                // 2. Set the contact properties. The Contacts framework handles the N: and FN: generation for you
+                contact.givenName = nameParts.firstName
+                contact.familyName = nameParts.familyName
+                
+                // Optional: If you want to force a specific display name, use contact.nickname or contact.organizationName
+                if !self.bussName.isEmpty {
+                    contact.organizationName = self.bussName
+                }
+
+//        contact.givenName = self.memName
         contact.phoneNumbers = [CNLabeledValue(label: CNLabelPhoneNumberMobile, value: CNPhoneNumber(stringValue: self.mobile))]
         
         let workEmail = CNLabeledValue(label: CNLabelWork, value: bMail as NSString)
@@ -86,7 +98,8 @@ class QRCodeViewController: UIViewController {
         let instaProfileValue = CNLabeledValue(label: "instagram", value: instaProfile)
         contact.socialProfiles = [facebookProfileValue,twitProfileValue,lnkdProfileValue,webProfileValue,ytProfileValue,instaProfileValue]
         
-        self.contact = contact
+//        self.contact = contact
+        self.contact = contact.copy() as? CNContact
         
         // Generate QR code
         if let qrCodeImageDetail = makeQRCode(for: self.contact) {
@@ -113,12 +126,38 @@ class QRCodeViewController: UIViewController {
         
         return nil
     }
+    
+    func parseName(fullName: String) -> (firstName: String, familyName: String) {
+            let components = fullName.split(separator: " ")
+            
+            if components.count >= 2 {
+                let familyName = String(components.last!)
+                let firstNameComponents = components.dropLast()
+                let firstName = firstNameComponents.joined(separator: " ")
+                return (firstName, familyName)
+            } else if let singleName = components.first {
+                // Use as first name if only one name is provided
+                return (String(singleName), "")
+            } else {
+                return ("", "")
+            }
+        }
 }
 
 extension CNContact {
+    
     func toVCard() -> String {
-        let vCardData = try! CNContactVCardSerialization.data(with: [self])
-        print(vCardData)
-        return String(data: vCardData, encoding: .utf8) ?? ""
-    }
+            do {
+                // Safely generate vCard data
+                let vCardData = try CNContactVCardSerialization.data(with: [self])
+                
+                // You can print the raw vCard string if you want to inspect it
+                // print(String(data: vCardData, encoding: .utf8) ?? "N/A")
+                
+                return String(data: vCardData, encoding: .utf8) ?? ""
+            } catch {
+                print("Error generating vCard data: \(error.localizedDescription)")
+                return ""
+            }
+        }
 }
